@@ -1,0 +1,20 @@
+.ui-modal {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: 3999;
+    overflow: scroll;
+    background-color: rgba(51, 97, 119, 0.45);
+}
+
+.ui-modal .content {
+    background-color: white;
+    padding: 30px;
+    height: max-content;
+    margin-top: 2%;
+
+}
